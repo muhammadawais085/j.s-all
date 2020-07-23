@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+  <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+  <style>
+       tr:hover{background-color:#EEE;cursor: pointer}
+  </style> -->
+</head>
+<body>
+  <!-- =======chap 38 to 44======= -->
+  <!-- ------task 2------- -->
+    Input Year: <input type="text" id = "year"/> 
+      
+    <input type="button" id="button" onClick="isLeapYear()"
+            value="Check Leap Year"> 
+      
+    <p id="GFG"></p> 
+
+    <div>
+        <p>Click the button to locate where in the string a specifed value occurs.</p>
+
+<button onclick="myFunction()">Try it</button>
+
+<p id="demo"></p>
+    </div>
+<!-- ------task 6------- -->
+    <div style="margin-top: 5px;">
+        <input id="input" type="text" value="awaiseou">
+<div id="output"></div>
+<button onclick="submit()">Go!</button>
+    </div>
+
+    <div style="margin-top: 10px;">
+        <a href="#" onClick="checkbox()"> Click Me To Continue </a>
+    </div>
+
+    <div>
+      <a href="">
+        <img src="bike 1.jpg" onclick="alert('thanks for buy')" width="200px" height="200px" alt="">
+      </a>
+    </div>
+
+    <div>
+        <p>Click the buttons to create and delete row(s) for the table.</p>
+
+<table id="myTable">
+  <tr>
+    <td>james o</td>
+  </tr>
+  <tr>
+    <td>adam 1</td>
+  </tr>
+  
+  <tr>
+    <td>joy 2</td>
+  </tr>
+  <tr>
+    <td>roy 3</td>
+  </tr>
+  <tr>
+    <td>mark 4</td>
+  </tr>
+  <tr>
+    <td>awais 5</td>
+  </tr>
+  <tr>
+    <td>junaid 6</td>
+  </tr>
+  <tr>
+    <td>muneeb 7</td>
+  </tr>
+  <tr>
+    <td>israr 8</td>
+  </tr>
+  <tr>
+    <td>yousuf 9</td>
+  </tr>
+</table>
+<br>
+
+<button onclick="myCreateFunction()">Create row</button>
+<button onclick="myDeleteFunction()">Delete row</button>
+
+    </div >
+
+    <div style="margin-top: 20px;">
+        <img src="bike 1.jpg" onmouseout="changeThis('img',' bike 1.jpg')" onmouseover="changeThis('img','bike 2.jpg')" alt="" width="200px" height="200px">
+    </div>
+
+    <div style="margin-top: 20px;">
+        <h3>counter</h3>
+        <button type="button" onclick="hello()">Click me</button>
+        <p>Clicks: <a id="clicks">0</a></p>
+        <button type="button" onclick="bye()">decrease</button>
+        
+    </div>
+
+<!-- =======chap 49 to 52======== -->
+<!-- --------task 1--------- -->
+<div class="jumbotron text-center">
+  <h1>SIGN UP</h1>
+  <p></p> 
+</div>
+  
+<div class="container">
+ <form>
+   <div class="form-group">
+    <label for="fname">First Name:</label>
+    <input type="text" class="form-control" id="fname" >
+  </div>
+    <div class="form-group">
+    <label for="lname">Last Name:</label>
+    <input type="text" class="form-control" id="lname">
+  </div>
+   <div class="form-group">
+    <label for="age">Age:</label>
+    <input type="number" class="form-control" id="age">
+  </div>
+  <div class="form-group">
+    <label for="email">Email address:</label>
+    <input type="email" class="form-control" id="email">
+  </div>
+  <div class="form-group">
+    <label for="pwd">Password:</label>
+    <input type="password" class="form-control" id="pwd">
+  </div>
+  <p id="mytext"></p>
+  <p id="mytext1"></p>
+  <p id="mytext2"></p>
+  <p id="mytext3"></p>
+  <p id="mytext4"></p>
+  <button type="button" onclick="getVal();" class="btn-block btn-primary">Sign Up</button>
+</form>
+</div>
+<!-- -------task 2-------- -->
+<p id="pera" style="margin-top: 20px;">Lorem ipsum dolor sit amet consectetur adipisicing elit.  <a href="javascript:void(0)" onclick="readmore()">readmore</a>
+
+</p>
+
+<!-- ---------task 3--------- -->
+<!-- <div class="jumbotron text-center">
+  <h1>TASK 3</h1>
+  <p></p> 
+</div>
+<div class="container">
+
+<form>
+<div class="form-group">
+<label for="fname">First Name:</label>
+<input type="text" name="fname" class="form-control" id="fname" >
+</div>
+<div class="form-group">
+<label for="lname">Last Name:</label>
+<input type="text" name="lname" class="form-control" id="lname">
+</div>
+<div class="form-group">
+<label for="age">Age:</label>
+<input type="number" name="age" class="form-control" id="age">
+</div>
+<center>
+<button type="button" onclick="addHtmlTableRow();" class="btn btn-success">INSERT STUDENT</button>
+<button type="button" onclick="editHtmlTbleSelectedRow();" class="btn btn-primary">UPDATE STUDENT</button>
+<button type="button" onclick="removeSelectedRow();" class="btn btn-danger">DELETE STUDENT</button>
+</center>
+
+</form>
+
+<div class="container">
+ 
+          <h2 class="text-center">Student Data</h2>
+          
+          <table class="table"  id="table">
+            <thead>
+              <tr>
+                <th>First Name</th>
+                <th>Last Name</th>
+                <th>Age</th>
+              </tr>
+            </thead>
+            <tbody>
+          
+            </tbody>
+          </table>
+        </div>
+  </div>
+
+</div> -->
+<!-- -------chp 58 to 67-------- -->
+
+<div>
+  <h1> DOM </h1>
+  <div id=”form-content” class=”content”>
+  <label for=”first-name”>First Name</label>
+  <input type=”text” id=”first-name” />
+  <label for=”last-name”>Last Name</label>
+  <input type=”text” id=”last-name” />
+  <label for=”email”>Email</label>
+  <input type=”text” id=”email” />
+  </div>
+  <div id=”main-content” class=”content”>
+  <p class=”render”> First Name : Alex</p>
+  <p class=”render” id=”lastName”>Last Name: Bank</p>
+  <p class=”render” id="email"> Email : alexbank@example.com</p>
+  <p class=”render”> Country : Pakistan </p>
+  <p class=”render”> contact : +92 300 1234567</p>
+  </div>
+  </div>
+</body>
+<script src="app.js"></script>
+</html>
+
+
